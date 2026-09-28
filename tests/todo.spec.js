@@ -4,7 +4,7 @@ test("visar rubrik och tom lista från början", async ({ page }) => {
   await page.goto("/");
 
   await expect(
-    page.getByRole("heading", { name: "Att göra-lista" }),
+    page.getByRole("heading", { name: "Mina uppgifter" }),
   ).toBeVisible();
   await expect(page.getByText("Inga uppgifter än")).toBeVisible();
 });
