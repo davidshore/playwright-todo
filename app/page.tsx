@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Att göra-lista</h1>
+      <h1>Mina uppgifter</h1>
 
       <form onSubmit={addTask}>
         <label htmlFor="task-input">Ny uppgift</label>
